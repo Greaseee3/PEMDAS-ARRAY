@@ -11,7 +11,7 @@ int main() {
   int gabung = panjang1 + panjang2;
   
   int gabungan[gabung];
-  
+
   
   for (i = 0; i < panjang1; i++) {
     gabungan[i] = data1[i];
@@ -20,8 +20,7 @@ int main() {
     gabungan[panjang1 + i] = data2[i];
   }
 
-  cout << "Maka" << endl;
-  cout << "Array hasil gabungan adalah = ";
+  cout << "Array sebelum pengurutan = " << endl;
   for (i = 0; i < gabung; i++) {
     cout << gabungan[i] << " ";
   }
@@ -47,4 +46,5 @@ int main() {
   cout << endl;
 
   return 0;
+
 }
